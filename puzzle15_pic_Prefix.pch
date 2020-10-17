@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Puzzle15' target in the 'Puzzle15' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

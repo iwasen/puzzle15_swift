@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	047A190612240BBD00CDB2E7 /* OpeningView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 367}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	047A190712240BBD00CDB2E7 /* OpeningView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 550}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{75, 565}";
+		};
+	};
+	0486D427121E4A8F0007814E /* PieceView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 342}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 286}";
+		};
+	};
+	0486D428121E4A8F0007814E /* PieceView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 576}}";
+			sepNavSelRange = "{714, 0}";
+			sepNavVisRange = "{233, 488}";
+		};
+	};
+	1D3623240D0F684500981E51 /* Puzzle15AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 512}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Puzzle15AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 836}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{128, 1062}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* puzzle15_pic */ = {
+		activeExec = 0;
+		executables = (
+			84BE11ED121FCA250028FD38 /* puzzle15_pic */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Puzzle15ViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 953}}";
+			sepNavSelRange = "{572, 5}";
+			sepNavVisRange = "{0, 554}";
+			sepNavWindowFrame = "{{38, 594}, {750, 558}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Puzzle15ViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 5709}}";
+			sepNavSelRange = "{8626, 0}";
+			sepNavVisRange = "{7941, 916}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 84BE11ED121FCA250028FD38 /* puzzle15_pic */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* puzzle15_pic */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* puzzle15_pic */,
+		);
+		codeSenseManager = 84BE1206121FCA470028FD38 /* Code sense */;
+		executables = (
+			84BE11ED121FCA250028FD38 /* puzzle15_pic */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					666,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304362012;
+			PBXWorkspaceStateSaveDate = 304362012;
+		};
+		perUserProjectItems = {
+			84078E601222FBEB0077D877 = 84078E601222FBEB0077D877 /* PBXBookmark */;
+			842B167912204CBF000E6574 = 842B167912204CBF000E6574 /* PBXTextBookmark */;
+			844D92A01223BBD500172743 = 844D92A01223BBD500172743 /* PBXBookmark */;
+			844D92A21223BBD500172743 = 844D92A21223BBD500172743 /* PBXTextBookmark */;
+			8466A6E41224375900D0B2CC /* PBXTextBookmark */ = 8466A6E41224375900D0B2CC /* PBXTextBookmark */;
+			8466A6E51224375900D0B2CC /* PBXTextBookmark */ = 8466A6E51224375900D0B2CC /* PBXTextBookmark */;
+			8466A6E61224375900D0B2CC /* PBXTextBookmark */ = 8466A6E61224375900D0B2CC /* PBXTextBookmark */;
+			8466A6E71224375900D0B2CC /* PBXTextBookmark */ = 8466A6E71224375900D0B2CC /* PBXTextBookmark */;
+			8466A6E81224375900D0B2CC /* PBXTextBookmark */ = 8466A6E81224375900D0B2CC /* PBXTextBookmark */;
+			8470A17C122430FC00FD087C = 8470A17C122430FC00FD087C /* PBXTextBookmark */;
+			8470A17D122430FC00FD087C = 8470A17D122430FC00FD087C /* PlistBookmark */;
+			8470A17E122430FC00FD087C = 8470A17E122430FC00FD087C /* PBXTextBookmark */;
+			8470A17F122430FC00FD087C = 8470A17F122430FC00FD087C /* PBXTextBookmark */;
+			8470A1831224311600FD087C = 8470A1831224311600FD087C /* PBXTextBookmark */;
+			84BEB45B1221AA9300357721 = 84BEB45B1221AA9300357721 /* PBXBookmark */;
+			84CEE5831221ADB6006A3823 = 84CEE5831221ADB6006A3823 /* PBXBookmark */;
+			84D482421223052D003C6435 = 84D482421223052D003C6435 /* PBXBookmark */;
+			84D482431223052D003C6435 = 84D482431223052D003C6435 /* PBXBookmark */;
+			84D482441223052D003C6435 = 84D482441223052D003C6435 /* PBXBookmark */;
+			84D482451223052D003C6435 = 84D482451223052D003C6435 /* PBXBookmark */;
+			84E5914312219EAA00C30FB2 = 84E5914312219EAA00C30FB2 /* PBXTextBookmark */;
+			84E5914412219EAA00C30FB2 = 84E5914412219EAA00C30FB2 /* PBXBookmark */;
+			84E5918E1221A52400C30FB2 = 84E5918E1221A52400C30FB2 /* PBXBookmark */;
+			84E5918F1221A52400C30FB2 = 84E5918F1221A52400C30FB2 /* PBXBookmark */;
+			84E591901221A52400C30FB2 = 84E591901221A52400C30FB2 /* PBXBookmark */;
+			84E591911221A52400C30FB2 = 84E591911221A52400C30FB2 /* PBXBookmark */;
+			84E591921221A52400C30FB2 = 84E591921221A52400C30FB2 /* PBXBookmark */;
+			84E591931221A52400C30FB2 = 84E591931221A52400C30FB2 /* PBXBookmark */;
+			84E591941221A52400C30FB2 = 84E591941221A52400C30FB2 /* PBXBookmark */;
+		};
+		sourceControlManager = 84BE1205121FCA470028FD38 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	84078E601222FBEB0077D877 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84DEA0A612211A8100E09B52 /* startButtonSelected.png */;
+	};
+	842B167912204CBF000E6574 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Puzzle15AppDelegate.m */;
+		name = "Puzzle15AppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1395;
+		vrLoc = 3;
+	};
+	844D92A01223BBD500172743 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84CEE57C1221AD7C006A3823 /* 15puzzle_rogo.png */;
+	};
+	844D92A21223BBD500172743 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0486D427121E4A8F0007814E /* PieceView.h */;
+		name = "PieceView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 286;
+		vrLoc = 0;
+	};
+	8466A6E41224375900D0B2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 047A190612240BBD00CDB2E7 /* OpeningView.h */;
+		name = "OpeningView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
+	};
+	8466A6E51224375900D0B2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0486D427121E4A8F0007814E /* PieceView.h */;
+		name = "PieceView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 286;
+		vrLoc = 0;
+	};
+	8466A6E61224375900D0B2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0486D428121E4A8F0007814E /* PieceView.m */;
+		name = "PieceView.m: 41";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 188;
+	};
+	8466A6E71224375900D0B2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 047A190712240BBD00CDB2E7 /* OpeningView.m */;
+		name = "OpeningView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 179;
+	};
+	8466A6E81224375900D0B2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 047A190712240BBD00CDB2E7 /* OpeningView.m */;
+		name = "OpeningView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 124;
+	};
+	8470A17C122430FC00FD087C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Puzzle15ViewController.h */;
+		name = "Puzzle15ViewController.h: 70";
+		rLen = 0;
+		rLoc = 1628;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 579;
+	};
+	8470A17D122430FC00FD087C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* puzzle15_pic-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/akiko/TRC/iPad/puzzle15/puzzle15_pic/puzzle15_pic-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8470A17E122430FC00FD087C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Puzzle15AppDelegate.h */;
+		name = "Puzzle15AppDelegate.h: 21";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
+	};
+	8470A17F122430FC00FD087C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Puzzle15ViewController.m */;
+		name = "Puzzle15ViewController.m: 32";
+		rLen = 0;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 217;
+	};
+	8470A1831224311600FD087C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Puzzle15ViewController.m */;
+		name = "Puzzle15ViewController.m: 22";
+		rLen = 0;
+		rLoc = 554;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 192;
+	};
+	84BE11ED121FCA250028FD38 /* puzzle15_pic */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = puzzle15_pic;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	84BE1205121FCA470028FD38 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = ipad;
+			};
+		};
+	};
+	84BE1206121FCA470028FD38 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	84BEB45B1221AA9300357721 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 04CDFAEB121D6E5A00F587FC /* ゲームタイトル（仮）.png */;
+	};
+	84CEE5831221ADB6006A3823 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 04CDFAEC121D6E5A00F587FC /* ローディング（仮）.png */;
+	};
+	84D482421223052D003C6435 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E591791221A3C300C30FB2 /* 配置イメージ_ヘルプ画面.png */;
+	};
+	84D482431223052D003C6435 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E591781221A3C300C30FB2 /* 配置イメージ_ゲーム画面.png */;
+	};
+	84D482441223052D003C6435 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E591771221A3C300C30FB2 /* 配置イメージ.png */;
+	};
+	84D482451223052D003C6435 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84CEE57D1221AD7C006A3823 /* rogo_mov_base.png */;
+	};
+	84E5914312219EAA00C30FB2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0486D428121E4A8F0007814E /* PieceView.m */;
+		name = "PieceView.m: 41";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 714;
+		vrLoc = 0;
+	};
+	84E5914412219EAA00C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 04CDFAEA121D6E5A00F587FC /* waku_768_768.png */;
+	};
+	84E591721221A3C300C30FB2 /* helpView.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 75}, {1031, 1077}}";
+		};
+	};
+	84E591771221A3C300C30FB2 /* 配置イメージ.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{387, 74}, {1031, 1077}}";
+		};
+	};
+	84E5918E1221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E5916C1221A3C300C30FB2 /* backButtonDefalt.png */;
+	};
+	84E5918F1221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E5916D1221A3C300C30FB2 /* backButtonSelected.png */;
+	};
+	84E591901221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E5916E1221A3C300C30FB2 /* easyButtonDefault.png */;
+	};
+	84E591911221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E5916F1221A3C300C30FB2 /* easyButtonSelected.png */;
+	};
+	84E591921221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E591711221A3C300C30FB2 /* helpButtonSelected.png */;
+	};
+	84E591931221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E591721221A3C300C30FB2 /* helpView.png */;
+	};
+	84E591941221A52400C30FB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84E591741221A3C300C30FB2 /* normalButtonSelected.png */;
+	};
+	8D1107310486CEB800E47090 /* puzzle15_pic-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
+		};
+	};
+}

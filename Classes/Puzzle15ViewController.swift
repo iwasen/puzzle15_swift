@@ -66,9 +66,9 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
         pieces = []
         for i in 0..<16 {
             let view = PieceView.init()
-            view.isUserInteractionEnabled = true;
-            view.pieceNo = i;
-            view.delegate = self;
+            view.isUserInteractionEnabled = true
+            view.pieceNo = i
+            view.delegate = self
             puzzleView.addSubview(view)
             
             pieces.append(PIECE_INFO(view: view, position: i))
@@ -76,9 +76,9 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
         
         // サウンド初期化
         soundBGM = initializeSound(sound: "bgm.mp3")
-        soundBGM.numberOfLoops = -1;
+        soundBGM.numberOfLoops = -1
         soundMoveOK = initializeSound(sound: "動かしたときの音.aif")
-        soundMoveNG = initializeSound(sound: "動かせないときの音.aif");
+        soundMoveNG = initializeSound(sound: "動かせないときの音.aif")
     }
 
     // オープニングムービー終了処理
@@ -110,19 +110,19 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
                 
                 // アニメーション処理
                 UIView.animate(withDuration: 0.2, animations: {
-                    var rect = self.pieces[pieceNo].view.frame;
-                    rect.origin.x = CGFloat(self.pieces[pieceNo].position % 4 * self.PIECE_WIDTH);
-                    rect.origin.y = CGFloat(self.pieces[pieceNo].position / 4 * self.PIECE_HEIGHT);
-                    self.pieces[pieceNo].view.frame = rect;
+                    var rect = self.pieces[pieceNo].view.frame
+                    rect.origin.x = CGFloat(self.pieces[pieceNo].position % 4 * self.PIECE_WIDTH)
+                    rect.origin.y = CGFloat(self.pieces[pieceNo].position / 4 * self.PIECE_HEIGHT)
+                    self.pieces[pieceNo].view.frame = rect
                 })
                 /*
-                var context = UIGraphicsGetCurrentContext();
+                var context = UIGraphicsGetCurrentContext()
                 UIView.beginAnimations(nil, context: context)
                 UIView.setAnimationDuration(0.2)
-                var rect = pieces[pieceNo].view.frame;
-                rect.origin.x = CGFloat(pieces[pieceNo].position % 4 * PIECE_WIDTH);
-                rect.origin.y = CGFloat(pieces[pieceNo].position / 4 * PIECE_HEIGHT);
-                pieces[pieceNo].view.frame = rect;
+                var rect = pieces[pieceNo].view.frame
+                rect.origin.x = CGFloat(pieces[pieceNo].position % 4 * PIECE_WIDTH)
+                rect.origin.y = CGFloat(pieces[pieceNo].position / 4 * PIECE_HEIGHT)
+                pieces[pieceNo].view.frame = rect
                 UIView.commitAnimations()
                 */
                 // 完成チェック
@@ -144,35 +144,35 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     // 動かせるかチェックし、動かせれば動かす
     func checkAndMovePiece(pieceNo: Int) ->Bool
     {
-        let movePosition = pieces[pieceNo].position;
-        let blankPosition = pieces[15].position;
+        let movePosition = pieces[pieceNo].position
+        let blankPosition = pieces[15].position
         
-        let mx = movePosition % 4;
-        let my = movePosition / 4;
-        let bx = blankPosition % 4;
-        let by = blankPosition / 4;
+        let mx = movePosition % 4
+        let my = movePosition / 4
+        let bx = blankPosition % 4
+        let by = blankPosition / 4
         
         if (my == by) {
             if ((mx > 0 && mx - 1 == bx) || (mx < 3 && mx + 1 == bx)) {
                 movePiece(pieceNo: pieceNo)
-                return true;
+                return true
             }
         }
         
         if (mx == bx) {
             if ((my > 0 && my - 1 == by) || (my < 3 && my + 1 == by)) {
                 movePiece(pieceNo: pieceNo)
-                return true;
+                return true
             }
         }
         
-        return false;
+        return false
     }
 
     // 移動回数表示
     func setMoveCount(count: Int)
     {
-        moveCount = count;
+        moveCount = count
         moveCountLabel.text = moveCount.description
     }
 
@@ -190,9 +190,9 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     // ピースを移動する
     func movePiece(pieceNo: Int)
     {
-        let temp = pieces[pieceNo].position;
-        pieces[pieceNo].position = pieces[15].position;
-        pieces[15].position = temp;
+        let temp = pieces[pieceNo].position
+        pieces[pieceNo].position = pieces[15].position
+        pieces[15].position = temp
     }
 
     // パズル開始処理
@@ -209,7 +209,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
         displayPieces()
         
         // 経過時間
-        elapsedTime = 0;
+        elapsedTime = 0
         displayTime()
         timer.invalidate()
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: {_ in
@@ -220,7 +220,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
         soundBGM.currentTime = 0
         soundBGM.play()
         
-        playFlag = true;
+        playFlag = true
     }
 
     // パズル終了処理
@@ -232,7 +232,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
         // 経過時間タイマー停止
         timer.invalidate()
         
-        playFlag = false;
+        playFlag = false
         
         // 完成ムービー表示用タイマーセット
         playCompleteMovie()
@@ -242,13 +242,13 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     func playCompleteMovie()
     {
         puzzleView.addSubview(completeView)
-        completeView.alpha = 0.0;
-    //    completeView.controlStyle = MPMovieControlStyleNone;
+        completeView.alpha = 0.0
+    //    completeView.controlStyle = MPMovieControlStyleNone
         completeMovieLayer.player?.seek(to: CMTime.zero)
         completeMovieLayer.player?.play()
         
         UIView.animate(withDuration: 2.0, animations: {
-            self.completeView.alpha = 1.0;
+            self.completeView.alpha = 1.0
         })
     }
 
@@ -261,7 +261,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     func displayPieces()
     {
         for i in 0..<16 {
-            pieces[i].view.frame = CGRect(x: pieces[i].position % 4 * PIECE_WIDTH, y: pieces[i].position / 4 * PIECE_HEIGHT, width: PIECE_WIDTH, height: PIECE_WIDTH);
+            pieces[i].view.frame = CGRect(x: pieces[i].position % 4 * PIECE_WIDTH, y: pieces[i].position / 4 * PIECE_HEIGHT, width: PIECE_WIDTH, height: PIECE_WIDTH)
         }
     }
 
@@ -269,18 +269,18 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     func displayTime()
     {
         timeLabel.text = String(format: "%02d:%02d", elapsedTime / 60, elapsedTime % 60)
-        elapsedTime += 1;
+        elapsedTime += 1
     }
 
     // ピースをシャッフル
     func sufflePieces()
     {
         // 乱数初期化
-//        srand(UInt32(time(nil)));
+//        srand(UInt32(time(nil)))
 
         // 位置を初期化
         for i in 0..<16 {
-            pieces[i].position = i;
+            pieces[i].position = i
         }
         
         // 100回ピースを入れ替え
@@ -289,11 +289,11 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
             var r2: Int
             repeat {
                 r2 = Int.random(in: 0..<15)
-            } while (r1 == r2);
+            } while (r1 == r2)
             
-            let temp = pieces[r1].position;
-            pieces[r1].position = pieces[r2].position;
-            pieces[r2].position = temp;
+            let temp = pieces[r1].position
+            pieces[r1].position = pieces[r2].position
+            pieces[r2].position = temp
             _ = checkAndMovePiece(pieceNo: r1)
         }
     }
@@ -302,7 +302,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     @IBAction func easyButton(sender: AnyObject)
     {
         menuView.removeFromSuperview()
-        playMode = PLAY_MODE_EASY;
+        playMode = PLAY_MODE_EASY
         
         // ピース画像を表示
         loadPieces()
@@ -313,7 +313,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
     @IBAction func normalButton(sender: AnyObject)
     {
         menuView.removeFromSuperview()
-        playMode = PLAY_MODE_NORMAL;
+        playMode = PLAY_MODE_NORMAL
         
         // ピース画像を表示
         loadPieces()
@@ -384,7 +384,7 @@ class Puzzle15ViewController: UIViewController, OpeningViewDelegate, PieceViewDe
         for i in 0..<16 {
             pieces[i].view.removeFromSuperview()
             puzzleView.addSubview(pieces[i].view)
-            pieces[i].position = i;
+            pieces[i].position = i
         }
 
         // 完成ムービー消去

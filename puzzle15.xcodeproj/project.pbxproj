@@ -95,7 +95,6 @@
 		047E5282121E950300BFFB16 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		0486D51C121E6F9F0007814E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0486D52E121E71910007814E /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
-		048AB3B623DEAF570067A900 /* puzzle15_pic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "puzzle15_pic-Bridging-Header.h"; sourceTree = "<group>"; };
 		048AB3B723DEAF570067A900 /* Puzzle15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle15ViewController.swift; sourceTree = "<group>"; };
 		048AB3B923DEB49D0067A900 /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
 		048AB3BB23DEB4E40067A900 /* PieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
@@ -112,12 +111,12 @@
 		04CDFAF3121D6E5B00F587FC /* 動かせないときの音.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "動かせないときの音.aif"; sourceTree = "<group>"; };
 		04CDFAF4121D6E5B00F587FC /* 決定など（予備）.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "決定など（予備）.aif"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* puzzle15_pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puzzle15_pic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* puzzle15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puzzle15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* Puzzle15ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Puzzle15ViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* puzzle15_pic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puzzle15_pic_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* puzzle15_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puzzle15_Prefix.pch; sourceTree = "<group>"; };
 		8466A746122454E800D0B2CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84B8A2AD1221629800A255C3 /* n01e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n01e.png; sourceTree = "<group>"; };
 		84B8A2AE1221629800A255C3 /* n02e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n02e.png; sourceTree = "<group>"; };
@@ -174,7 +173,7 @@
 		84E591771221A3C300C30FB2 /* 配置イメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置イメージ.png"; sourceTree = "<group>"; };
 		84E591781221A3C300C30FB2 /* 配置イメージ_ゲーム画面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置イメージ_ゲーム画面.png"; sourceTree = "<group>"; };
 		84E591791221A3C300C30FB2 /* 配置イメージ_ヘルプ画面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置イメージ_ヘルプ画面.png"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* puzzle15_pic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "puzzle15_pic-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* puzzle15-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "puzzle15-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +242,6 @@
 			children = (
 				041789E623E040AA00782730 /* AppDelegate.swift */,
 				048AB3B723DEAF570067A900 /* Puzzle15ViewController.swift */,
-				048AB3B623DEAF570067A900 /* puzzle15_pic-Bridging-Header.h */,
 				048AB3B923DEB49D0067A900 /* OpeningView.swift */,
 				048AB3BB23DEB4E40067A900 /* PieceView.swift */,
 			);
@@ -253,7 +251,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* puzzle15_pic.app */,
+				1D6058910D05DD3D006BFB54 /* puzzle15.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,7 +271,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* puzzle15_pic_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* puzzle15_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -287,7 +285,7 @@
 				04CDFAEF121D6E5B00F587FC /* sounds */,
 				2899E5210DE3E06400AC0155 /* Puzzle15ViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* puzzle15_pic-Info.plist */,
+				8D1107310486CEB800E47090 /* puzzle15-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -394,9 +392,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* puzzle15_pic */ = {
+		1D6058900D05DD3D006BFB54 /* puzzle15 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "puzzle15_pic" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "puzzle15" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -406,9 +404,9 @@
 			);
 			dependencies = (
 			);
-			name = puzzle15_pic;
+			name = puzzle15;
 			productName = Puzzle15;
-			productReference = 1D6058910D05DD3D006BFB54 /* puzzle15_pic.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* puzzle15.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -424,7 +422,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "puzzle15_pic" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "puzzle15" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
@@ -439,7 +437,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* puzzle15_pic */,
+				1D6058900D05DD3D006BFB54 /* puzzle15 */,
 			);
 		};
 /* End PBXProject section */
@@ -553,8 +551,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = puzzle15_pic_Prefix.pch;
-				INFOPLIST_FILE = "puzzle15_pic-Info.plist";
+				GCC_PREFIX_HEADER = puzzle15_Prefix.pch;
+				INFOPLIST_FILE = "puzzle15-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -562,10 +560,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.troot.puzzle15;
-				PRODUCT_NAME = puzzle15_pic;
-				PROVISIONING_PROFILE_SPECIFIER = TROOT_Development;
+				PRODUCT_NAME = puzzle15;
+				PROVISIONING_PROFILE_SPECIFIER = puzzle15_Development;
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = puzzle15_Development;
-				SWIFT_OBJC_BRIDGING_HEADER = "Classes/puzzle15_pic-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -585,8 +583,8 @@
 				DEVELOPMENT_TEAM = 7Z6BAQ463S;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7Z6BAQ463S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = puzzle15_pic_Prefix.pch;
-				INFOPLIST_FILE = "puzzle15_pic-Info.plist";
+				GCC_PREFIX_HEADER = puzzle15_Prefix.pch;
+				INFOPLIST_FILE = "puzzle15-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,10 +592,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.troot.puzzle15;
-				PRODUCT_NAME = puzzle15_pic;
-				PROVISIONING_PROFILE_SPECIFIER = TROOT_AdHoc;
+				PRODUCT_NAME = puzzle15;
+				PROVISIONING_PROFILE_SPECIFIER = puzzle15_AdHoc;
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = puzzle15_AdHoc;
-				SWIFT_OBJC_BRIDGING_HEADER = "Classes/puzzle15_pic-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -693,7 +691,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "puzzle15_pic" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "puzzle15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -702,7 +700,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "puzzle15_pic" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "puzzle15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

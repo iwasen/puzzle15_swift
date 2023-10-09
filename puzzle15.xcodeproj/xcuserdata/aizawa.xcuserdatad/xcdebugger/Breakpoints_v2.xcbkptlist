@@ -3,4 +3,69 @@
    uuid = "DC61C901-99CB-43DC-8133-29530DE42AF3"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD1862A5-2054-4235-AF1D-A6AF8AD132FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Classes/Puzzle15ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD1862A5-2054-4235-AF1D-A6AF8AD132FB - 7be83072445f7399"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "puzzle15.Puzzle15ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "puzzle15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aizawa/Documents/puzzle15_swift/Classes/Puzzle15ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "593">
+               </Location>
+               <Location
+                  uuid = "BD1862A5-2054-4235-AF1D-A6AF8AD132FB - 7be83072445f7378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "puzzle15.Puzzle15ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "puzzle15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aizawa/Documents/puzzle15_swift/Classes/Puzzle15ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "822">
+               </Location>
+               <Location
+                  uuid = "BD1862A5-2054-4235-AF1D-A6AF8AD132FB - 7be83072445f7378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "puzzle15.Puzzle15ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "puzzle15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aizawa/Documents/puzzle15_swift/Classes/Puzzle15ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "795">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

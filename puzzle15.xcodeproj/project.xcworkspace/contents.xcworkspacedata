@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:puzzle15_pic.xcodeproj">
+      location = "self:/Users/aizawa/Documents/puzzle15_pic_swift/puzzle15.xcodeproj">
    </FileRef>
 </Workspace>
